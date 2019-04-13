@@ -1,4 +1,3 @@
-# Masters-Thesis
 For my Masters' thesis, I am working on the application of machine learning models to predict the percolation threshold of large networks.
 The percolation threshold is an essential indicator of the resilience of a network to random attacks. However, computing the percolation
 threshold is computationally expensive, and the existing methods for estimating the percolation threshold are prone to significant errors.
@@ -12,9 +11,9 @@ of a network and increase the accuracy of the estimate. Further analysis of the 
 
 Following is the description of the codes used-
 
-file2net.m - To convert a .txt file containing the edge list to an adjacency matrix for the corresponding unweigted undirected network
+file2net.m - To convert a .txt file containing the edge list to an adjacency matrix for the corresponding unweighted undirected network
 
-gensynnet.net - To generate networks folowing the network evolution process described in the paper, 'Uncovering the role of elementary 
+gensynnet.net - To generate networks following the network evolution process described in the paper, 'Uncovering the role of elementary 
 processes in network evolution' by Prof. A-L Barabasi
 
 listdis.m - To find the size of the second largest component of a graph
@@ -23,12 +22,12 @@ listdismantle.m - To find the sizes of all the disconnected components of a grap
 
 makeER.m - To generate E-R networks of given size and mean degree
 
-makePR.m - To generate networks based on the preferntial attachment algorithm
+makePR.m - To generate networks based on the preferential attachment algorithm
 
-percolate.m - To find percolation threshold of a network (by succeptibility method)
+percolate.m - To find percolation threshold of a network (by susceptibility method)
 
 percolate2.m - To find percolation threshold of a network (by second largest component method)
 
-preprocess.m - To remove directed edges, self loops and other irregularities
+preprocess.m - To remove directed edges, self-loops, and other irregularities
 
 SW.m - To generate small-world networks
