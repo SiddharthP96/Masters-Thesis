@@ -14,7 +14,7 @@ Following is the description of the codes used-
 file2net.m - To convert a .txt file containing the edge list to an adjacency matrix for the corresponding unweighted undirected network
 
 gensynnet.net - To generate networks following the network evolution process described in the paper, 'Uncovering the role of elementary 
-processes in network evolution' by Prof. A-L Barabasi
+processes in network evolution' by Ghoshal et. al.
 
 listdis.m - To find the size of the second largest component of a graph
 
@@ -27,6 +27,8 @@ makePR.m - To generate networks based on the preferential attachment algorithm
 percolate.m - To find percolation threshold of a network (by susceptibility method)
 
 percolate2.m - To find percolation threshold of a network (by second largest component method)
+
+percolate4.m - To find percolation threshold of a network faster (by second largest component method)
 
 preprocess.m - To remove directed edges, self-loops, and other irregularities
 
