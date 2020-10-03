@@ -1,7 +1,7 @@
 function [A] = preprocess(Z)
 n=length(Z);
 d=sum(Z);
-%to make matrix symmetric and remove (make connections randomly) nodes with zero degree
+%to make matrix symmetric and remove nodes with zero degree
 A=Z;
 A=A+A';
 A=abs(A);
