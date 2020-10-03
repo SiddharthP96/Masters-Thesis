@@ -1,9 +1,9 @@
-For my Masters' thesis, I am working on the application of machine learning models to predict the percolation threshold of large networks.
+For my Master's thesis, I am working on the application of machine learning models to predict the percolation threshold of large networks.
 The percolation threshold is an essential indicator of the resilience of a network to random attacks. However, computing the percolation
 threshold is computationally expensive, and the existing methods for estimating the percolation threshold are prone to significant errors.
 I plan to use machine learning algorithms to estimate the percolation threshold of a given network as a function of various statistical
 and structural properties that affect the percolation threshold (like mean, variance, range, clustering coefficient, planarity, etc.).
-I have created a dataset of over 2000 real and synthetic networks; the data-set consists of statistical and structural properties that
+I have created a dataset of over 1000 real and synthetic networks; the data-set consists of statistical and structural properties that
 can affect the percolation threshold, as features and the percolation threshold of networks, as the output attribute. I aim to apply a
 shallow neural network regression model to this data-set, which would significantly reduce the cost of estimating the percolation threshold
 of a network and increase the accuracy of the estimate. Further analysis of the model will also help in the identification of the features
